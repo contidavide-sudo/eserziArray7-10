@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.Design;
-using System.Xml.Schema;
-
+﻿
 namespace eserziArray7_10
 {
     internal class Program
@@ -112,10 +110,7 @@ namespace eserziArray7_10
             for (int i = 0; i < vet4.Length; i++)
             {
 
-                if (vet3[i] >= a && vet3[i] <= b || vet3[i] >= c && vet3[i] <= d)
-                { 
-                }
-                else
+                if (! (vet3[i] >= a && vet3[i] <= b || vet3[i] >= c && vet3[i] <= d))
                 {
                     cont3 = cont3 + 1;
                 }
